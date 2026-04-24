@@ -33,7 +33,7 @@ export default function Footer() {
           </div>
           <div>
             <span className="block text-[10px] uppercase tracking-[0.3em] text-gray-400 mb-4 font-medium">Folgen</span>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-mauve transition-colors">Instagram</a>
+            <a href="https://www.instagram.com/amelie.artstudio" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-mauve transition-colors">Instagram</a>
           </div>
         </div>
       </div>

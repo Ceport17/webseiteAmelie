@@ -66,7 +66,7 @@ export default function About() {
           className="relative pt-16 max-w-2xl mx-auto text-center"
         >
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-16 h-[1px] bg-salbei/30"></div>
-          <p className="text-mauve font-serif italic text-2xl md:text-3xl leading-relaxed">
+          <p className="text-mauve font-sans font-light text-2xl md:text-3xl leading-relaxed">
             Mein Ziel ist eigentlich ganz simpel: <br className="md:hidden" />Ich möchte dir mit meinen Bildern ein bisschen Ruhe nach Hause geben.
           </p>
         </motion.div>
