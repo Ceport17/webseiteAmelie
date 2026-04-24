@@ -17,7 +17,7 @@ import profileImg from "./amelie_profil.png";
 const works = [
   {
     id: 2,
-    title: "Beige Struktur",
+    title: "soft Beige",
     image: img6,
     description: "Mixed Media Structure",
     year: "2024",
@@ -26,7 +26,7 @@ const works = [
   },
   {
     id: 1,
-    title: "Meeresgrund",
+    title: "Ocean Breeze",
     image: img1,
     description: "Gips on Canvas",
     year: "2024",
@@ -35,7 +35,7 @@ const works = [
   },
   {
     id: 4,
-    title: "Rosa Akzente",
+    title: "spring Vibes",
     image: img5,
     description: "Strukturgips auf Holz",
     year: "2024",
@@ -44,7 +44,7 @@ const works = [
   },
   {
     id: 3,
-    title: "Grünes Feld",
+    title: "quiet Field",
     image: img7,
     description: "Strukturgips auf Holz",
     year: "2023",
@@ -53,7 +53,7 @@ const works = [
   },
   {
     id: 5,
-    title: "Blaues Relief",
+    title: "peaceful Mountains",
     image: img4,
     description: "Gips auf Leinwand",
     year: "2024",
@@ -62,7 +62,7 @@ const works = [
   },
   {
     id: 6,
-    title: "Weiße Woge",
+    title: "sandy Beach",
     image: img9,
     description: "Strukturgips auf Holz",
     year: "2024",

@@ -48,7 +48,7 @@ const galleryData: ArtWork[] = [
   },
   {
     id: 2,
-    title: "Beige Struktur",
+    title: "soft Beige",
     year: "2026",
     material: "Strukturgips auf Holz",
     image: weissBeige,
@@ -57,7 +57,7 @@ const galleryData: ArtWork[] = [
   },
   {
     id: 3,
-    title: "Grün & Rot",
+    title: "green-red Field",
     year: "2026",
     material: "Gips auf Leinwand",
     image: img10,
@@ -65,7 +65,7 @@ const galleryData: ArtWork[] = [
   },
   {
     id: 4,
-    title: "Blaues Relief",
+    title: "peaceful Mountains",
     year: "2026",
     material: "Gips auf Leinwand",
     image: img9,
@@ -73,7 +73,7 @@ const galleryData: ArtWork[] = [
   },
   {
     id: 5,
-    title: "Grünes Feld",
+    title: "quiet Field",
     year: "2026",
     material: "Strukturgips auf Holz",
     image: img16,
@@ -81,7 +81,7 @@ const galleryData: ArtWork[] = [
   },
   {
     id: 6,
-    title: "Frühlingserwachen",
+    title: "spring Vibes",
     year: "2026",
     material: "Gips on Canvas",
     image: img5,
@@ -97,7 +97,7 @@ const galleryData: ArtWork[] = [
   },
   {
     id: 8,
-    title: "Welle in beige",
+    title: "beige Wave",
     year: "2025",
     material: "Strukturgips auf Holz",
     image: img6,
@@ -106,7 +106,7 @@ const galleryData: ArtWork[] = [
   },
   {
     id: 9,
-    title: "Weiße Woge",
+    title: "sandy Beach",
     year: "2026",
     material: "Gips auf Leinwand",
     image: img15,
@@ -114,7 +114,7 @@ const galleryData: ArtWork[] = [
   },
   {
     id: 10,
-    title: "Rauer Sand",
+    title: "blue Ocean",
     year: "2026",
     material: "Gips auf Leinwand",
     image: img14,
@@ -122,7 +122,7 @@ const galleryData: ArtWork[] = [
   },
   {
     id: 11,
-    title: "Blumenstruktur",
+    title: "flour Duo",
     year: "2026",
     material: "Strukturgips auf Holz",
     image: blumeStruktur,
@@ -146,7 +146,7 @@ const galleryData: ArtWork[] = [
   },
   {
     id: 14,
-    title: "Rote Blume",
+    title: "red Flour",
     year: "2026",
     material: "Gips auf Leinwand",
     image: img2,
