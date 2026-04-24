@@ -35,7 +35,7 @@ export default function GalleryPreview() {
           transition={{ duration: 1 }}
           className="text-center mb-20"
         >
-          <h2 className="text-xs uppercase tracking-[0.5em] text-mauve/60 mb-4">Einblicke</h2>
+          <h2 className="text-sm uppercase tracking-[0.5em] text-mauve/60 mb-4">Einblicke</h2>
           <div className="w-8 h-[1px] bg-salbei mx-auto"></div>
         </motion.div>
 
@@ -73,9 +73,9 @@ export default function GalleryPreview() {
           transition={{ duration: 1, delay: 0.5 }}
           className="text-center"
         >
-          <Link 
-            to="/galerie" 
-            className="inline-block text-[10px] uppercase tracking-[0.5em] text-mauve hover:text-black transition-all duration-500 border-b border-mauve/10 hover:border-black pb-3"
+          <Link
+            to="/galerie"
+            className="inline-block text-xs uppercase tracking-[0.5em] text-mauve hover:text-black transition-all duration-500 border-b border-mauve/10 hover:border-black pb-3"
           >
             Entdecke die gesamte Kollektion
           </Link>

@@ -391,33 +391,15 @@ export default function Privacy() {
               
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-[10px] uppercase tracking-[0.3em] text-gray-400 font-medium mb-3">Google Fonts</h3>
+                  <h3 className="text-[10px] uppercase tracking-[0.3em] text-gray-400 font-medium mb-3">Lokale Schriftarten</h3>
                   <p className="text-lg mb-4">
-                    Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Google Fonts, die von Google
-                    bereitgestellt werden. Beim Aufruf einer Seite lädt Dein Browser die benötigten Fonts in Deinen Browsercache,
-                    um Texte und Schriftarten korrekt anzuzeigen.
+                    Diese Website nutzt zur einheitlichen Darstellung von Schriftarten lokal eingebundene Schriftdateien. Die verwendeten Schriftarten werden direkt von unserem eigenen Webserver geladen.
                   </p>
                   <p className="text-lg mb-4">
-                    Zu diesem Zweck muss der von Dir verwendete Browser Verbindung zu den Servern von Google
-                    aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass über Deine IP-Adresse diese Website
-                    aufgerufen wurde. Die Nutzung von Google Fonts erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der
-                    Websitebetreiber hat ein berechtigtes Interesse an der einheitlichen Darstellung des Schriftbildes auf seiner
-                    Website. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich
-                    auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG, soweit die Einwilligung die
-                    Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. DeviceFingerprinting) im Sinne des TDDDG umfasst. Die Einwilligung ist jederzeit widerrufbar.
-                  </p>
-                  <p className="text-lg mb-4">
-                    Wenn Dein Browser Google Fonts nicht unterstützt, wird eine Standardschrift von Deinem Computer genutzt.
-                  </p>
-                  <p className="text-lg mb-4">
-                    Weitere Informationen zu Google Fonts findest Du unter <a href="https://developers.google.com/fonts/faq" target="_blank" rel="noopener noreferrer" className="text-mauve hover:opacity-80 transition-opacity underline underline-offset-4 decoration-salbei/30">developers.google.com/fonts/faq</a> und in der Datenschutzerklärung von Google: <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener noreferrer" className="text-mauve hover:opacity-80 transition-opacity underline underline-offset-4 decoration-salbei/30">policies.google.com/privacy?hl=de</a>.
+                    Es findet dabei keine Verbindung zu Servern von Google Fonts oder anderen externen Schriftanbieter-Diensten statt. Eine Übermittlung Deiner IP-Adresse oder sonstiger personenbezogener Daten an Google im Zusammenhang mit der Darstellung der Schriftarten erfolgt daher nicht.
                   </p>
                   <p className="text-lg">
-                    Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework“ (DPF). Der
-                    DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung
-                    europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach
-                    dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere
-                    Informationen hierzu erhältst Du vom Anbieter unter folgendem Link: <a href="https://www.dataprivacyframework.gov/participant/5780" target="_blank" rel="noopener noreferrer" className="text-mauve hover:opacity-80 transition-opacity underline underline-offset-4 decoration-salbei/30">dataprivacyframework.gov</a>.
+                    Die lokale Einbindung der Schriftarten erfolgt im Interesse einer datenschutzfreundlichen und einheitlichen Darstellung unserer Website auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO.
                   </p>
                 </div>
 

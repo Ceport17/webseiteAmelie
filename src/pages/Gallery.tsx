@@ -40,7 +40,7 @@ interface ArtWork {
 const galleryData: ArtWork[] = [
   {
     id: 1,
-    title: "Grüne Gipfel",
+    title: "nature Layers",
     year: "2026",
     material: "Gips auf Leinwand",
     image: img4,
@@ -81,7 +81,7 @@ const galleryData: ArtWork[] = [
   },
   {
     id: 6,
-    title: "Rosa Akzente",
+    title: "Frühlingserwachen",
     year: "2026",
     material: "Gips on Canvas",
     image: img5,
@@ -89,7 +89,7 @@ const galleryData: ArtWork[] = [
   },
   {
     id: 7,
-    title: "Gelber Sand",
+    title: "Sunshine on canvas",
     year: "2026",
     material: "Gips auf Leinwand",
     image: img3,
@@ -130,7 +130,7 @@ const galleryData: ArtWork[] = [
   },
   {
     id: 12,
-    title: "Duo abstrakt",
+    title: "perfect Duo",
     year: "2025",
     material: "Gips auf Leinwand",
     image: img12,
@@ -138,7 +138,7 @@ const galleryData: ArtWork[] = [
   },
   {
     id: 13,
-    title: "Meeresgrund",
+    title: "Ocean Breeze",
     year: "2025",
     material: "Strukturgips auf Holz",
     image: img13,
@@ -154,7 +154,7 @@ const galleryData: ArtWork[] = [
   },
   {
     id: 15,
-    title: "Berge im Holzrahmen",
+    title: "mountain Magic",
     year: "2026",
     material: "Gips auf Leinwand",
     image: bergeHocker,
