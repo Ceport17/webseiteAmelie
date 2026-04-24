@@ -8,7 +8,7 @@ export default function Privacy() {
 
   return (
     <main className="pt-32 pb-24 px-6 md:px-16 bg-creme min-h-screen">
-      <div className="max-w-3xl">
+      <div className="max-w-3xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -338,6 +338,26 @@ export default function Privacy() {
                     aufforderst, Deine Einwilligung zur Speicherung widerrufst oder der Zweck für die Datenspeicherung entfällt
                     (z. B. nach abgeschlossener Bearbeitung Deiner Anfrage). Zwingende gesetzliche Bestimmungen –
                     insbesondere Aufbewahrungsfristen – bleiben unberührt.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-[10px] uppercase tracking-[0.3em] text-gray-400 font-medium mb-3">Formspree</h3>
+                  <p className="text-lg mb-4">
+                    Für die Verarbeitung unseres Kontaktformulars nutzen wir den Dienst Formspree. Anbieter ist die Formspree Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA.
+                  </p>
+                  <p className="text-lg mb-4">
+                    Wenn Du uns über das Kontaktformular kontaktierst, werden die von Dir eingegebenen Daten (z. B. Name, E-Mail-Adresse und Nachricht) an die Server von Formspree übertragen und dort verarbeitet. Dies dient ausschließlich der Bearbeitung Deiner Anfrage.
+                  </p>
+                  <p className="text-lg mb-4">
+                    Die Nutzung von Formspree erfolgt im Interesse einer zuverlässigen und sicheren Verarbeitung von Kontaktanfragen (Art. 6 Abs. 1 lit. f DSGVO) sowie zur Durchführung vorvertraglicher Maßnahmen (Art. 6 Abs. 1 lit. b DSGVO).
+                  </p>
+                  <p className="text-lg mb-4">
+                    Formspree verarbeitet Daten auch in den USA. Die Datenübertragung erfolgt auf Grundlage geeigneter Garantien gemäß Art. 46 DSGVO (z. B. Standardvertragsklauseln).
+                  </p>
+                  <p className="text-lg">
+                    Weitere Informationen findest Du in der Datenschutzerklärung von Formspree:{" "}
+                    <a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-mauve hover:opacity-80 transition-opacity underline underline-offset-4 decoration-salbei/30">formspree.io/legal/privacy-policy/</a>
                   </p>
                 </div>
 

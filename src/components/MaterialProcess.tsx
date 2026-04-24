@@ -45,12 +45,12 @@ export default function MaterialProcess() {
             transition={{ duration: 0.8 }}
             className="order-1 md:order-2"
           >
-            <motion.span 
+            <motion.span
               initial={{ opacity: 0, rotate: -5 }}
               whileInView={{ opacity: 1, rotate: -3 }}
               viewport={{ once: true }}
               transition={{ duration: 1, delay: 0.4 }}
-              className="text-salbei text-3xl font-hand mb-2 block"
+              className="text-salbei text-3xl font-serif italic mb-2 block"
             >
               Prozess
             </motion.span>

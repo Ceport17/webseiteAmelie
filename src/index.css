@@ -1,12 +1,11 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Inter:wght@300;400;500;600&family=Mrs+Saint+Delafield&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Inter:wght@300;400;500;600&display=swap');
 
 @theme {
   --font-serif: "Bodoni Moda", serif;
   --font-sans: "Nunito", sans-serif;
   --font-nunito: "Nunito", sans-serif;
   --font-inter: "Inter", sans-serif;
-  --font-hand: "Mrs Saint Delafield", cursive;
   
   --color-creme: #FFF9F3;
   --color-creme-dark: #F6E7D9;
