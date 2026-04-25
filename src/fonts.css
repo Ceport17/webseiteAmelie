@@ -23,7 +23,7 @@
   font-display: swap;
 }
 
-/* Nunito - Variable Font */
+/* Nunito - Variable Font - Preload mit höherer Priorität */
 @font-face {
   font-family: 'Nunito';
   src: url('./fonts/Nunito-VariableFont_wght.woff2') format('woff2-variations');

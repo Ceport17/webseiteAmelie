@@ -30,9 +30,10 @@ export default function Hero() {
             WebkitMaskComposite: 'source-in'
           }}
         >
-          <motion.img 
-            src={heroImg} 
-            alt="Handgefertigte Struktur" 
+          <motion.img
+            src={heroImg}
+            alt="Handgefertigte Struktur"
+            fetchPriority="high"
             className="w-full h-full object-cover hover:grayscale-0 transition-all duration-1000"
             style={{ y: useTransform(scrollYProgress, [0, 1], [0, 80]), scale: 1.15 }}
             referrerPolicy="no-referrer"
