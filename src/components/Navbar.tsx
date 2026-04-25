@@ -40,7 +40,7 @@ export default function Navbar() {
       </motion.div>
 
       {/* Desktop Navigation */}
-      <div className="hidden md:flex gap-8 md:gap-12 text-[11px] uppercase tracking-[0.3em] font-medium text-black">
+      <div className="hidden md:flex gap-8 md:gap-12 text-sm md:text-base uppercase tracking-[0.3em] font-medium text-black">
         {navLinks.map((link) => (
           link.isExternal ? (
             <a key={link.name} href={link.href} className="hover:text-mauve transition-colors duration-300 relative group">

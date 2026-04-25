@@ -29,7 +29,7 @@ export default function Commissions() {
             persönlich <br />
             für dich.
           </h2>
-          <div className="w-12 h-[1px] bg-salbei mb-10 mx-auto md:mx-auto"></div>
+          <div className="w-12 h-[1px] bg-salbei mb-10 md:mx-auto"></div>
           <p className="text-gray-500 leading-relaxed max-w-md font-light text-lg md:text-xl">
             Wenn du Lust auf ein individuelles Bild hast, schreib mir gerne eine Nachricht mit deinen Wünschen an Farbe und Motiv. 
             Ich gestalte ein ganz besonderes Bild für dein Zuhause.
@@ -65,3 +65,4 @@ export default function Commissions() {
     </section>
   );
 }
+
