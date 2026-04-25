@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
-import profilImg from "./amelie_profil.png";
+import profilImg from "./amelie_profil.webp";
 
 export default function About() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -24,10 +24,11 @@ export default function About() {
         >
           <div className="relative">
             <div className="w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden border-[12px] border-creme shadow-2xl relative bg-creme">
-              <motion.img 
+              <motion.img
                 style={{ y, scale }}
-                src={profilImg} 
-                alt="Amelie" 
+                src={profilImg}
+                alt="Amelie"
+                loading="lazy"
                 className="w-full h-full object-cover grayscale brightness-105"
                 referrerPolicy="no-referrer"
               />
@@ -66,8 +67,32 @@ export default function About() {
           className="relative pt-16 max-w-2xl mx-auto text-center"
         >
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-16 h-[1px] bg-salbei/30"></div>
-          <p className="text-mauve font-sans font-light text-2xl md:text-3xl leading-relaxed">
-            Mein Ziel ist eigentlich ganz simpel: <br className="md:hidden" />Ich möchte dir mit meinen Bildern ein bisschen Ruhe nach Hause geben.
+          <p className="text-mauve font-sans font-light text-lg md:text-xl lg:text-2xl leading-relaxed">
+            Mein Ziel ist eigentlich ganz simpel: <br className="md:hidden" />Ich möchte dir mit meinen Bildern ein bisschen{" "}
+            <span className="relative inline-block">
+              Ruhe nach Hause geben.
+              <svg
+                className="absolute -bottom-2 left-0 w-full h-3 overflow-visible pointer-events-none"
+                viewBox="0 0 300 12"
+                preserveAspectRatio="none"
+              >
+                <motion.path
+                  d="M2,8.5c45.2-1.3,90.4-2.1,135.6-2c40.3,0.1,80.7,0.8,120.9,2.8c12.5,0.6,25,1.4,37.5,2.7"
+                  fill="none"
+                  stroke="#7E9F83"
+                  strokeWidth="3.5"
+                  strokeLinecap="round"
+                  initial={{ pathLength: 0, opacity: 0 }}
+                  whileInView={{ pathLength: 1, opacity: 0.6 }}
+                  viewport={{ once: true }}
+                  transition={{
+                    duration: 1.5,
+                    delay: 1,
+                    ease: "easeInOut"
+                  }}
+                />
+              </svg>
+            </span>
           </p>
         </motion.div>
       </div>

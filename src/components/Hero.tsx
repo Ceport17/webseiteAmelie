@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import { Link } from "react-router-dom";
 import { useRef } from "react";
-import heroImg from "./berge_blau_struktur.png";
+import heroImg from "./berge_blau_struktur.webp";
 
 export default function Hero() {
   const containerRef = useRef<HTMLDivElement>(null);

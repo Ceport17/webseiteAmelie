@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
-import imgProcess1 from "./blume_rot_struktur.png";
-import imgProcess2 from "./gruen_rosa_struktur.png";
+import imgProcess1 from "./blume_rot_struktur.webp";
+import imgProcess2 from "./gruen_rosa_struktur.webp";
 
 export default function MaterialProcess() {
   return (
@@ -15,9 +15,10 @@ export default function MaterialProcess() {
               viewport={{ once: true }}
               className="aspect-square bg-creme p-4"
             >
-              <img 
-                src={imgProcess1} 
-                alt="Prozess Detail" 
+              <img
+                src={imgProcess1}
+                alt="Prozess Detail"
+                loading="lazy"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
@@ -29,9 +30,10 @@ export default function MaterialProcess() {
               transition={{ delay: 0.2 }}
               className="aspect-square bg-creme p-4 mt-12"
             >
-              <img 
-                src={imgProcess2} 
-                alt="Material Detail" 
+              <img
+                src={imgProcess2}
+                alt="Material Detail"
+                loading="lazy"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />

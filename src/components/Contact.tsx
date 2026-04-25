@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { useForm, ValidationError } from "@formspree/react";
 import { useState } from "react";
 import { Turnstile } from "@marsidev/react-turnstile";
-import herz from "./herz.png";
+import herz from "./herz.webp";
 
 export default function Contact() {
   const [state, handleSubmit] = useForm("xjgjlezd");
@@ -15,6 +15,7 @@ export default function Contact() {
           <img
             src={herz}
             alt="Herz"
+            loading="lazy"
             className="w-16 h-auto opacity-60 mb-6"
             referrerPolicy="no-referrer"
           />

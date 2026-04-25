@@ -3,10 +3,10 @@ import { motion, AnimatePresence, useScroll, useTransform } from "motion/react";
 import { Link } from "react-router-dom";
 import { X } from "lucide-react";
 
-import img1 from "./hero_berge.png";
-import img2 from "./gruen_rosa_struktur.png";
-import img3 from "./struktur_gruen_rot.png";
-import img4 from "./struktur_blau_berge.png";
+import img1 from "./hero_berge.webp";
+import img2 from "./gruen_rosa_struktur.webp";
+import img3 from "./struktur_gruen_rot.webp";
+import img4 from "./struktur_blau_berge.webp";
 
 const previewImages = [
   img2,

@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
-import commImage from "./amelie_wuensche.png";
+import commImage from "./amelie_wuensche.webp";
 
 export default function Commissions() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -42,10 +42,11 @@ export default function Commissions() {
             className="w-full aspect-[4/5] overflow-hidden bg-white shadow-2xl"
             style={{ y }}
           >
-            <motion.img 
+            <motion.img
               style={{ scale }}
-              src={commImage} 
-              alt="Individuelle Kunst" 
+              src={commImage}
+              alt="Individuell Kunst"
+              loading="lazy"
               className="w-full h-full object-cover grayscale-[10%]"
               referrerPolicy="no-referrer"
             />

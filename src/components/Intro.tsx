@@ -1,8 +1,8 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
-import welle from "./welle.png";
-import smallImg from "./gruen_quadrat.png";
-import mainIntroImg from "./gruen_berge.png";
+import welle from "./welle.webp";
+import smallImg from "./gruen_quadrat.webp";
+import mainIntroImg from "./gruen_berge.webp";
 
 export default function Intro() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -27,10 +27,11 @@ export default function Intro() {
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
           className="w-full md:w-1/2 flex flex-col items-start text-left"
         >
-          <img 
-            src={welle} 
-            alt="Welle" 
-            className="w-20 h-auto mb-10 opacity-60" 
+          <img
+            src={welle}
+            alt="Welle"
+            loading="lazy"
+            className="w-20 h-auto mb-10 opacity-60"
             referrerPolicy="no-referrer"
           />
           <h2 className="text-3xl md:text-5xl lg:text-6xl mb-10 leading-[1.1] text-mauve uppercase tracking-[0.2em] font-light">
@@ -59,10 +60,11 @@ export default function Intro() {
               WebkitMaskComposite: 'source-in'
             }}
           >
-            <motion.img 
+            <motion.img
               style={{ scale }}
-              src={mainIntroImg} 
-              alt="Atelier Szene" 
+              src={mainIntroImg}
+              alt="Atelier Szene"
+              loading="lazy"
               className="w-full h-full object-cover grayscale-[20%]"
               referrerPolicy="no-referrer"
             />
@@ -73,10 +75,11 @@ export default function Intro() {
             style={{ y: y2 }}
             className="absolute -bottom-20 -left-12 md:-left-24 w-3/5 aspect-square shadow-2xl overflow-hidden z-10"
           >
-            <motion.img 
+            <motion.img
               style={{ scale: 1.1 }}
-              src={smallImg} 
-              alt="Detail Struktur" 
+              src={smallImg}
+              alt="Detail Struktur"
+              loading="lazy"
               className="w-full h-full object-cover grayscale-[5%] hover:grayscale-0 transition-all duration-700"
               referrerPolicy="no-referrer"
             />

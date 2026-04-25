@@ -3,16 +3,16 @@ import { motion, AnimatePresence } from "motion/react";
 import useEmblaCarousel from "embla-carousel-react";
 import { ArrowLeft, ArrowRight, ArrowUp, ArrowDown, X } from "lucide-react";
 
-import img1 from "./Strand2.png";
-import img2 from "./welle_rahmen.png";
-import img3 from "./quadrat_blume.png";
-import img4 from "./berge_blau_struktur.png";
-import img5 from "./gruen_rosa_struktur.png";
-import img6 from "./struktur_weiss_beige.png";
-import img7 from "./struktur_gruen.png";
-import img8 from "./welle_beije.png";
-import img9 from "./welle_hoch.png";
-import profileImg from "./amelie_profil.png";
+import img1 from "./Strand2.webp";
+import img2 from "./welle_rahmen.webp";
+import img3 from "./quadrat_blume.webp";
+import img4 from "./berge_blau_struktur.webp";
+import img5 from "./gruen_rosa_struktur.webp";
+import img6 from "./struktur_weiss_beige.webp";
+import img7 from "./struktur_gruen.webp";
+import img8 from "./welle_beije.webp";
+import img9 from "./welle_hoch.webp";
+import profileImg from "./amelie_profil.webp";
 
 const works = [
   {
