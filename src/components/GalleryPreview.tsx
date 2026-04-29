@@ -54,7 +54,7 @@ export default function GalleryPreview() {
                 className="aspect-[3/4] overflow-hidden bg-creme relative"
               >
                 <motion.img 
-                  style={{ y: i % 2 === 0 ? y : 0, scale: 1.1 }}
+                  style={{ scale: 1.1 }}
                   src={img} 
                   alt={`Galerie Vorschau ${i}`} 
                   className="w-full h-full object-cover grayscale-[10%] group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-[1.15]"

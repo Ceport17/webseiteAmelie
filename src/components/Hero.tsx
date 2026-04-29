@@ -58,7 +58,7 @@ export default function Hero() {
         >
           <Link 
             to="/galerie" 
-            className="inline-block px-10 py-4 border border-mauve text-mauve uppercase tracking-[0.3em] text-[10px] font-medium hover:bg-mauve hover:text-white transition-all duration-500"
+            className="inline-block px-10 py-4 border border-mauve bg-mauve text-white md:bg-transparent md:text-mauve uppercase tracking-[0.3em] text-[10px] font-medium hover:bg-mauve hover:text-white transition-all duration-500"
           >
             Zur Galerie
           </Link>
