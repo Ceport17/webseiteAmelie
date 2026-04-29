@@ -16,13 +16,13 @@ import Footer from "./components/Footer";
 import Gallery from "./pages/Gallery";
 import Imprint from "./pages/Imprint";
 import Privacy from "./pages/Privacy";
+import ScrollToTopButton from "./components/ScrollToTop";
 
-function ScrollToTop() {
+function useScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
-  return null;
 }
 
 function Home() {
@@ -38,21 +38,29 @@ function Home() {
   );
 }
 
+function AppInner() {
+  useScrollToTop();
+
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/galerie" element={<Gallery />} />
+        <Route path="/kontakt" element={<div className="pt-32 px-16 min-h-screen">Anfrage (In Arbeit)</div>} />
+        <Route path="/impressum" element={<Imprint />} />
+        <Route path="/datenschutz" element={<Privacy />} />
+      </Routes>
+      <Footer />
+      <ScrollToTopButton />
+    </div>
+  );
+}
+
 export default function App() {
   return (
     <Router>
-      <ScrollToTop />
-      <div className="min-h-screen flex flex-col">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/galerie" element={<Gallery />} />
-          <Route path="/kontakt" element={<div className="pt-32 px-16 min-h-screen">Anfrage (In Arbeit)</div>} />
-          <Route path="/impressum" element={<Imprint />} />
-          <Route path="/datenschutz" element={<Privacy />} />
-        </Routes>
-        <Footer />
-      </div>
+      <AppInner />
     </Router>
   );
 }
